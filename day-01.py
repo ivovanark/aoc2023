@@ -9,13 +9,13 @@ def nummer_uit_string_halen(txt_in):
     first = 0
     last = 0
     while i <= j:
-        if(t[i] in ('0123456789')):
-            first = t[i]
+        if(txt_in[i] in ('0123456789')):
+            first = txt_in[i]
             break
         i = i+1
     while j >= 0:
-        if(t[j] in ('0123456789')):
-            last = (t[j])
+        if(txt_in[j] in ('0123456789')):
+            last = (txt_in[j])
             break
         j = j-1
     return int(first + last)
