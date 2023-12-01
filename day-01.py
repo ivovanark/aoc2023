@@ -4,7 +4,7 @@ som = 0
 def nummer_uit_string_halen(txt_in):
     # haal 1e numerieke karakter uit een string en laatste numerieke uit een string, en voeg die samen tot een getal
     # dus '1' en '8' wordt 18
-    j = len(t) -1
+    j = len(txt_in) -1
     i = 0
     first = 0
     last = 0
